@@ -30,6 +30,10 @@ describe("Contador", () => {
     expect(palabra[0]  + " " + palabra[1] + " " + palabra[2]).toEqual("hola querido mundo");
   });
 
+  it("Deberia contar la cantidad de palabras iguales", () => {
+    expect(metodos.contarPalabras("hola hola")).toEqual(2);
+  });
+
 
 });
 

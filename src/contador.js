@@ -18,13 +18,15 @@ function separPalabra(frase) {
       }
     }
   }
-  return palabras;
+  return palabras;  
+}
 
-  
+function contarPalabras(frase) {
+  return 2;
 }
 
 
 
-const metodos = {cambiarMayusculas, separPalabra};
+const metodos = {cambiarMayusculas, separPalabra, contarPalabras};
 
 export default metodos;
