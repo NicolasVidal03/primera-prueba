@@ -20,6 +20,11 @@ describe("Contador", () => {
     expect(palabra[0]  + " " + palabra[1] + " " + palabra[2]).toEqual("hola querido mundo");
   });
 
+  it("Deberia convertir esta frase en puras minusculas y devolverla", () => {
+    var palabra = metodos.separPalabra("hOla QuEriDo mUnDo");
+    expect(palabra[0]  + " " + palabra[1] + " " + palabra[2]).toEqual("hola querido mundo");
+  });
+
 });
 
 

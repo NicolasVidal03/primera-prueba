@@ -3,6 +3,7 @@ function cambiarMayusculas(palabra) {
 }
 
 function separPalabra(frase) {
+  frase = cambiarMayusculas(frase);
   var palabras = [];
   var palabra = "";
   for(var i = 0; i <= frase.length; i++)
