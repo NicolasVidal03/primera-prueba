@@ -25,6 +25,12 @@ describe("Contador", () => {
     expect(palabra[0]  + " " + palabra[1] + " " + palabra[2]).toEqual("hola querido mundo");
   });
 
+  it("Deberia identificar que hay comas o puntos seguidos de espacio", () => {
+    var palabra = metodos.separPalabra("hOla, QuEriDo. mUnDo");
+    expect(palabra[0]  + " " + palabra[1] + " " + palabra[2]).toEqual("hola querido mundo");
+  });
+
+
 });
 
 

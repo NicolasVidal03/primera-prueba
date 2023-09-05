@@ -12,8 +12,10 @@ function separPalabra(frase) {
       palabra += frase[i];
     }
     else {
-      palabras.push(palabra);
-      palabra = "";
+      if(palabra != "") {
+        palabras.push(palabra);
+        palabra = "";
+      }
     }
   }
   return palabras;
