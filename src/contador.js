@@ -22,6 +22,20 @@ function separPalabra(frase) {
 }
 
 function contarPalabras(frase) {
+  /*const palabras = separPalabra(frase);
+  const contador = Map();
+  for(var i = 0; i< palabras.length; i++)
+  {
+    if(palabras[i] != contador.has(palabras[i]))
+    {
+      contador.set(palabras[i], 0);
+    }
+    else {
+      var cantidad = contador.get(palabras[i])++;
+      contador.set(palabras[1], cantidad);
+    }
+  }
+  return contador; */
   return 2;
 }
 

@@ -34,6 +34,10 @@ describe("Contador", () => {
     expect(metodos.contarPalabras("hola hola")).toEqual(2);
   });
 
+  /*it("Deberia contar la cantidad de hola iguales", () => {
+    expect(metodos.contarPalabras("hola hola querido mundo, hola")).toEqual(3);
+  });*/
+
 
 });
 
